@@ -1,0 +1,6 @@
+type OVRTransferEntity @entity {
+  id: ID!
+  from: Bytes!
+  to: Bytes! # address
+  tokenId: BigInt! # uint256
+}
